@@ -9,4 +9,5 @@ RSpec.describe Comment, type: :model do
       expect(comment).to respond_to(:body)
     end
   end
+  
 end

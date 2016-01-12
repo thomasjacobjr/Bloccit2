@@ -8,4 +8,5 @@ RSpec.describe Post, type: :model do
       expect(post).to respond_to(:body)
     end
   end
+  
 end
