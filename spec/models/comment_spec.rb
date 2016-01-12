@@ -8,6 +8,7 @@ RSpec.describe Comment, type: :model do
     it "should respond to body" do
       expect(comment).to respond_to(:body)
     end
+    
   end
-  
+
 end
